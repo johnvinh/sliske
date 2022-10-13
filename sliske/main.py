@@ -4,7 +4,7 @@ import json
 with open('token.json', 'r') as f:
     token = json.load(f)["token"]
 
-bot = discord.Bot()
+bot = discord.Bot(intents=discord.Intents.all())
 
 
 @bot.event
