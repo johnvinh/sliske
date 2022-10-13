@@ -4,6 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["John Vinh <john.michael.vinh2@gmail.com>"]
 readme = "README.md"
+packages = [
+    {include = "sliske"}
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"
