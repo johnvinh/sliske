@@ -13,7 +13,7 @@ async def on_ready():
 
 
 @bot.slash_command(guild_ids=[323973879288692746])
-async def hello(ctx):
+async def hello(ctx: discord.ApplicationContext):
     await ctx.respond("Hello!")
 
 bot.run(token)
